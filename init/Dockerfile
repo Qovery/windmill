@@ -4,8 +4,9 @@ RUN apt update && apt install postgresql-client curl -y
 
 WORKDIR /app
 
-COPY seed.sh .
+COPY init.sh .
+COPY init.sql .
 
-RUN chmod +x seed.sh
+RUN chmod +x init.sh
 
 ENTRYPOINT [ "/bin/bash" ]
