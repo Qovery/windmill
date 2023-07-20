@@ -1,1 +1,1 @@
-FROM ghcr.io/windmill-labs/windmill:1.133
+FROM ghcr.io/windmill-labs/windmill:1.134.1
