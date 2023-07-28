@@ -1,1 +1,1 @@
-FROM ghcr.io/windmill-labs/windmill-lsp:1.137.1
+FROM ghcr.io/windmill-labs/windmill-lsp:1.135.1
